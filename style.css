@@ -20,13 +20,12 @@
     margin-right: auto;
 }
 
-body {
-    background-image: url("./images/background.jpg");
-    background-size: cover;
+html {
+    background: url("./images/background.jpg") no-repeat center center fixed;
     background-color: white; /* Used incase image is unavailable.*/
-    height: 1700px;
-    background-position: center;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
